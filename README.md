@@ -12,7 +12,3 @@ Gère les réservations, les emplacements. Affiche les activités et les service
 ## Auteur
 
 Baptiste JAN
-
-```
-
-```
