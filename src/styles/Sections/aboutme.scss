@@ -1,0 +1,42 @@
+.aboutme {
+  &__section {
+    padding: 30px 50px 0px;
+    position: relative;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    p {
+      text-align: center;
+      font-size: map-get($font-size, 18px);
+      max-width: 986px;
+      font-weight: 500;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    &--left {
+      top: 30px;
+      left: 10px;
+      transform: scaleX(-1);
+
+      @include tablet-and-more {
+        left: 88px;
+      }
+    }
+    &--right {
+      top: 30px;
+      right: 10px;
+
+      @include tablet-and-more {
+        right: 88px;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  padding: 35px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+
+  &__text {
+    text-align: center;
+    color: $color-primary;
+    font-size: map-get($font-size, 14px);
+
+    @include tablet-and-more {
+      font-size: map-get($font-size, 20px);
+    }
+  }
+
+  &__link {
+    color: $color-primary;
+    font-size: map-get($font-size, 14px);
+    text-decoration: underline;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $color-tertiary;
+    }
+
+    @include tablet-and-more {
+      font-size: map-get($font-size, 18px);
+    }
+  }
+}

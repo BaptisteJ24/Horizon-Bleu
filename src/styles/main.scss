@@ -1,0 +1,32 @@
+// Shared
+@import './Shared/variables';
+// @import './Shared/functions';
+@import './Shared/mixins';
+@import './Shared/animations';
+
+// Base
+@import './Base/reset';
+
+// Components
+// @import './Components/button';
+@import './Components/card';
+@import './Components/gallery';
+@import './Components/error';
+@import './Components/section';
+@import './Components/form';
+
+// Layouts
+@import './Layouts/header';
+@import './Layouts/footer';
+
+// Sections
+@import './Sections/presentation';
+@import './Sections/aboutme';
+@import './Sections/skills';
+@import './Sections/realisations';
+@import './Sections/experiences';
+@import './Sections/contact';
+
+//Pages
+@import './Pages/homepage';
+@import './Pages/legalnotice';

@@ -1,0 +1,55 @@
+.legal-notice {
+  margin: 80px auto;
+  padding: 30px;
+  max-width: 1000px;
+  text-align: justify;
+
+  @include tablet-and-more {
+    padding: 30px 50px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: map-get($font-size, 32px);
+    color: $color-secondary;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-size: map-get($font-size, 24px);
+    color: $color-secondary;
+  }
+
+  p {
+    font-size: map-get($font-size, 18px);
+  }
+
+  .credits {
+    width: 100%;
+    margin-top: 10px;
+
+    .list-bullet {
+      width: 30px;
+      height: 30px;
+    }
+
+    li {
+      gap: 10px;
+      margin-bottom: 10px;
+
+      a {
+        color: $color-tertiary;
+        text-decoration: none;
+        font-weight: 700;
+      }
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-align: left;
+    }
+  }
+}
