@@ -7,7 +7,7 @@ Gère les réservations, les emplacements. Affiche les activités et les service
 
 ## Maquette
 
-![Maquette](https://www.figma.com/file/8VUEcR6UUVlMiXPKdIee4x/Horizon-Bleu?type=design&node-id=0%3A1&mode=design&t=0sT9rwmpC2Txca9s-1)
+[Maquette](https://www.figma.com/file/8VUEcR6UUVlMiXPKdIee4x/Horizon-Bleu?type=design&node-id=0%3A1&mode=design&t=0sT9rwmpC2Txca9s-1)
 
 ## Auteur
 
