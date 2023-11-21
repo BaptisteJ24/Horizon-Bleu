@@ -1,0 +1,11 @@
+.article {
+  display: flex;
+
+  &__title {
+    font-size: map-get($font-size, 20px);
+  }
+
+  &__text {
+    font-size: map-get($font-size, 16px);
+  }
+}

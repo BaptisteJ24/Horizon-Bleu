@@ -3,65 +3,130 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  // overflow: hidden;
-  border-radius: 15px;
+  border-radius: 5px;
   width: 100%;
-  height: 100%;
-  background-color: $color-primary;
+  max-width: 400px;
+  min-width: 400px;
+  height: 400px;
+  background-color: $color-tertiary;
   box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
   transition: transform 0.3s ease-in-out;
+  cursor: pointer;
   position: relative;
 
-  &__logo {
+  &::after {
+    content: '';
     position: absolute;
-    top: -25px;
-    width: 50px;
-    height: 50px;
-    // border-radius: 50%;
-    z-index: 1;
-    // overflow: hidden;
-    // background-color: #fff;
+    bottom: -15px;
+    right: -15px;
+    width: 100%;
+    height: 100%;
+    background-color: $color-secondary;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  &__picture {
+    display: flex;
+    width: 100%;
+    height: 60%;
 
     img {
+      object-fit: cover;
+      object-position: top;
+      border-radius: 5px 5px 0 0;
+      overflow-clip-margin: unset;
       width: 100%;
       height: 100%;
-      object-fit: contain;
-      overflow-clip-margin: unset;
     }
   }
 
-  &__details {
+  &__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  &__title,
+  &__text {
+    color: $color-primary;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: justify;
   }
 
   &__title {
     font-weight: 700;
-    color: $color-secondary;
     font-size: map-get($font-size, 14px);
-
-    @include tablet-and-more {
-      font-size: map-get($font-size, 20px);
-    }
-
-    @include desktop-and-more {
-      font-size: map-get($font-size, 24px);
-    }
-  }
-
-  &__subtitle {
-    font-size: map-get($font-size, 12px);
-    font-weight: 400;
-    color: $color-secondary;
 
     @include tablet-and-more {
       font-size: map-get($font-size, 16px);
     }
 
     @include desktop-and-more {
-      font-size: map-get($font-size, 18px);
+      font-size: map-get($font-size, 16px);
+    }
+  }
+
+  &__text {
+    font-size: map-get($font-size, 12px);
+    font-weight: 400;
+
+    @include tablet-and-more {
+      font-size: map-get($font-size, 14px);
+    }
+
+    @include desktop-and-more {
+      font-size: map-get($font-size, 14px);
+    }
+  }
+
+  &--team {
+    cursor: unset;
+    .card {
+      &__picture {
+        height: 73%;
+      }
+
+      &__title,
+      &__text {
+        color: $color-primary;
+        overflow: unset;
+        display: block;
+        -webkit-line-clamp: unset;
+        -webkit-box-orient: unset;
+      }
+
+      &__title {
+        text-align: center;
+      }
+
+      &__text {
+        display: flex;
+        height: 100%;
+        align-items: center;
+      }
+    }
+  }
+
+  &--activities {
+    cursor: unset;
+    .card {
+      &__picture {
+        height: 100%;
+
+        img {
+          border-radius: 5px;
+        }
+      }
     }
   }
 }

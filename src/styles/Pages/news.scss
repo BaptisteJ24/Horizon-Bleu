@@ -1,0 +1,10 @@
+.news {
+  &__section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}

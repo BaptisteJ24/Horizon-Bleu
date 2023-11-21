@@ -1,0 +1,260 @@
+{
+  "homepage": [
+    {
+      "title": "Bienvenue au Camping Horizon Bleu",
+      "text": [
+        "Nous sommes ouvert toute l'année, n'hésitez pas à nous contacter pour réserver votre séjour.",
+        "Niché au cœur d'un paysage côtier spectaculaire, notre camping offre une expérience unique pour les amateurs de plein air, les familles et les amis en quête d'aventures mémorables. Situé sur les rives de l'océan, notre camping vous accueille avec des vues à couper le souffle, des plages de sable fin et une atmosphère chaleureuse. Nous sommes impatients de vous accueillir !"
+      ],
+      "image": "coffee.jpg"
+    },
+    {
+      "title": "Découvrez la Beauté de la Mer",
+      "text": [
+        "Imaginez-vous vous réveiller au son des vagues douces caressant le rivage, sentir la brise marine sur votre visage et admirer le lever du soleil sur l'horizon infini de l'océan. Au Camping Horizon Bleu, vous pourrez vous détendre sur nos plages privées, explorer des criques cachées, et profiter de baignades rafraîchissantes dans les eaux cristallines de la mer. Les amateurs de sports nautiques trouveront leur bonheur avec une gamme d'activités telles que le surf, la plongée, et le kayak."
+      ],
+      "image": "sea_sunset.jpg"
+    },
+    {
+      "title": "Une Expérience de Camping Inoubliable",
+      "text": [
+        "Notre camping propose des emplacements spacieux pour tentes, caravanes et camping-cars, offrant un accès facile à la plage et aux installations. Que vous soyez un campeur chevronné ou un débutant, notre équipe chaleureuse est là pour rendre votre séjour agréable et sans soucis. Profitez de notre aire de jeux pour enfants, découvrez nos sentiers de randonnée pittoresques et détendez-vous autour d'un feu de camp sous un ciel étoilé."
+      ],
+      "image": "romantic_dinner.jpg"
+    },
+    {
+      "title": "Découvrez la Cuisine Locale",
+      "text": [
+        "Savourez la cuisine locale et les délices de la mer dans notre restaurant en bord de mer. Dégustez des fruits de mer frais, des spécialités régionales et des plats préparés avec amour par nos chefs talentueux. Profitez de repas en plein air avec vue sur l'océan et découvrez les saveurs uniques de la région."
+      ],
+      "image": "shrimp_bowl.jpg"
+    },
+    {
+      "title": "Réservez Votre Aventure Maintenant !",
+      "text": [
+        "Que vous soyez à la recherche d'une escapade romantique au bord de la mer, d'une aventure en famille ou d'une pause détente entre amis, le Camping Horizon Bleu vous promet des moments inoubliables dans un cadre naturel exceptionnel. Réservez dès maintenant et laissez-vous séduire par l'ambiance relaxante et la magie de l'océan. Venez créer des souvenirs inoubliables au Camping Horizon Bleu, votre destination de camping par excellence au bord de la mer."
+      ],
+      "image": "friends_group.jpg"
+    }
+  ],
+  "news": [
+    {
+      "title": "Découvrez la Faune Marine de la Région :",
+      "text": [
+        "Plongez dans le monde fascinant de la faune marine de notre région. Partez en excursion guidée pour observer les dauphins joueurs et les tortues de mer majestueuses. Rencontrez nos experts locaux qui partageront des faits intéressants sur la vie marine de nos eaux cristallines. C'est une expérience éducative et divertissante pour toute la famille."
+      ],
+      "image": "dolphin.jpg",
+      "date": "16/11/2023"
+    },
+    {
+      "title": "Festival des Saveurs Marines, une Célébration Gastronomique :",
+      "text": [
+        "Rejoignez-nous pour notre Festival annuel des Saveurs Marines. Dégustez des plats délicieux préparés par nos chefs talentueux mettant en vedette les meilleurs fruits de mer locaux. Profitez d'une soirée sous les étoiles avec des dégustations de vins, de la musique live et une atmosphère animée. Une expérience culinaire inoubliable au bord de la mer vous attend."
+      ],
+      "image": "seafood_plate.jpg",
+      "date": "09/11/2023"
+    },
+    {
+      "title": "Aventure en Plein Air, Randonnée Côtière :",
+      "text": [
+        "Explorez notre magnifique côte lors d'une randonnée côtière guidée. Suivez les sentiers pittoresques qui serpentent le long des falaises offrant des vues panoramiques sur l'océan. Découvrez la flore indigène, respirez l'air marin rafraîchissant et arrêtez-vous pour un pique-nique avec vue sur l'horizon. Une expérience idéale pour les amateurs de nature."
+      ],
+      "image": "trek.jpg",
+      "date": "02/11/2023"
+    },
+    {
+      "title": "Cours de Surf pour Tous les Niveaux :",
+      "text": [
+        "Que vous soyez débutant ou surfeur chevronné, nos cours de surf adaptés à tous les niveaux vous garantissent des moments d'excitation et de plaisir. Apprenez les techniques de base, améliorez votre équilibre et surfez sur les vagues de l'océan Atlantique. Nos instructeurs qualifiés vous accompagnent dans cette aventure aquatique palpitante."
+      ],
+      "image": "surf_lesson.jpg",
+      "date": "26/10/2023"
+    },
+    {
+      "title": "Préservons notre Écosystème, Journée de Nettoyage de Plage :",
+      "text": [
+        "Participez à notre initiative écologique en rejoignant notre journée de nettoyage de plage. Enfilez vos gants, ramassez les déchets et contribuez à préserver notre plage et notre écosystème marin. En récompense de votre engagement, profitez d'une séance de sensibilisation à la protection de l'environnement et d'une délicieuse collation offerte par le camping."
+      ],
+      "image": "beach_cleaning.jpg",
+      "date": "19/10/2023"
+    },
+    {
+      "title": "Observation des Étoiles, une Nuit Magique au Camping :",
+      "text": [
+        "Rejoignez-nous pour une soirée d'observation des étoiles inoubliable au Camping Horizon Bleu. Éloignez-vous de l'agitation de la ville et plongez dans l'obscurité de la nuit, où vous pourrez admirer un ciel étoilé éblouissant. Des astronomes locaux seront présents pour vous guider à travers les constellations, les planètes et les phénomènes célestes. Apportez votre télescope ou utilisez ceux mis à disposition par l'observatoire local pour une expérience stellaire unique.",
+        "Cette nuit magique sous les étoiles offre une occasion parfaite pour les amateurs d'astronomie, les couples romantiques ou les familles curieuses de l'univers. Préparez-vous à être émerveillés par la beauté du cosmos dans l'ambiance paisible de notre camping au bord de la mer.",
+        "Rejoignez-nous pour cette aventure spatiale et découvrez les secrets de l'univers tout en écoutant les vagues de l'océan en arrière-plan. Une expérience qui vous laissera des étoiles plein les yeux..."
+      ],
+      "image": "starry_sky.jpg",
+      "date": "12/10/2023"
+    }
+  ],
+  "team": [
+    {
+      "name": "Lola",
+      "description": "Passionnée par la nature et les sports nautiques, Lola organise des activités pour les campeurs avec enthousiasme !",
+      "image": "lola.jpg"
+    },
+    {
+      "name": "Mathilde",
+      "description": "L’âme artistique du camping. Mathilde anime des ateliers de peinture et de poterie, offrant aux campeurs une expérience créative inoubliable !",
+      "image": "mathilde.jpg"
+    },
+    {
+      "name": "Tony",
+      "description": "Amateur de musique et de danse. Tony organise des soirées animées sur la plage, la transformant en une piste de danse sous les étoiles !",
+      "image": "tony.jpg"
+    },
+    {
+      "name": "Camille",
+      "description": "Cuisinière talentueuse et créative. Camille concocte des plats délicieux avec des produits locaux, ravissant ainsi les papilles des vacanciers !",
+      "image": "camille.jpg"
+    },
+    {
+      "name": "Danny",
+      "description": "Moniteur de surf passionné, Danny  partage son amour pour les vagues aux débutants, les aidant à s'amuser dans l'océan !",
+      "image": "danny.jpg"
+    },
+    {
+      "name": "Antoine",
+      "description": "Tourbillon d’énergie et un brin de folie, Antoine est le maître des tournois de beach volley, organisant des compétitions endiablées sur la plage !",
+      "image": "antoine.jpg"
+    },
+    {
+      "name": "Pierre",
+      "description": "Directeur du camping et amateur de beach volley. Pierre veille au bon fonctionnement du camping et à la satisfaction des campeurs !",
+      "image": "pierre.jpg"
+    },
+    {
+      "name": "Florent",
+      "description": "Passionné de guitare, Florent crée une ambiance magique près du feu de camp en jouant des mélodies envoûtantes !",
+      "image": "florent.jpg"
+    },
+    {
+      "name": "Linda",
+      "description": "Passionnée par le bien-être physique et mental, Linda guide les campeurs dans des séances de yoga apaisantes sur la plage au lever du soleil !",
+      "image": "linda.jpg"
+    },
+    {
+      "name": "Charlie",
+      "description": "La mascotte adorée du camping, il charme tous les visiteurs par sa vivacité et sa tendresse !",
+      "image": "charlie.jpg"
+    }
+  ],
+  "activities": {
+    "intro": "Découvrez l'essence même de l'évasion en bord de mer au camping Horizon Bleu. Niché au cœur d'un paysage côtier à couper le souffle, notre site offre un refuge idyllique où le bruit apaisant des vagues se mêle au chant des oiseaux. Bien plus qu'un simple lieu de villégiature, notre camping est un paradis pour les amoureux de la nature et les amateurs d'aventure. Profitez de journées ensoleillées sur nos plages de sable fin, laissez-vous emporter par les sports nautiques palpitants, ou détendez-vous simplement en contemplant les magnifiques couchers de soleil. Chez nous, chaque moment est une promesse d'émerveillement et d'évasion. Préparez-vous à vivre une expérience inoubliable, où le calme de la mer rencontre l'excitation de l'aventure.",
+    "data": [
+      {
+        "title": "Cours de surf et kitesurf :",
+        "text": "Surfez sur les vagues ou volez avec le vent – nos cours de surf et de kitesurf s'adressent à tous les niveaux. Venez apprendre ou perfectionner vos compétences dans un cadre exceptionnel en bord de mer. Laissez-vous guider par nos instructeurs passionnés et vivez l'expérience ultime de glisse.",
+        "image": "surf.jpg"
+      },
+      {
+        "title": "Tournoi de Beach Volley :",
+        "text": "Plongez dans l'action avec notre terrain de beach volley en bord de mer. Rejoignez-nous pour des parties passionnantes sous le soleil éclatant, où le sable chaud et les vagues en arrière-plan créent le cadre idéal pour des rencontres sportives mémorables. Rassemblez vos amis et votre famille pour des matchs endiablés, et renforcez votre esprit d'équipe en profitant de l'excitation du jeu tout en respirant l'air marin revitalisant.",
+        "image": "beach_volley.jpg"
+      },
+      {
+        "title": "Séance de méditation et de yoga :",
+        "text": "Plongez dans la sérénité avec nos séances de yoga et de méditation en bord de mer. Au son des vagues, trouvez l'harmonie intérieure dans un cadre naturel apaisant. Reconnectez-vous avec vous-même, renforcez votre corps et apaisez votre esprit lors de chaque séance. Une expérience méditative inoubliable vous attend, offrant un véritable refuge de tranquillité au cœur de la nature.",
+        "image": "yoga.jpg"
+      },
+      {
+        "title": "Randonnée à cheval :",
+        "text": "Explorez la beauté de notre littoral lors de randonnées à cheval inoubliables sur la plage. En partenariat avec un centre équestre local, nous offrons l'opportunité de découvrir la côte sous un nouvel angle. Montez à cheval et laissez-vous guider par les vagues tout en admirant des panoramas à couper le souffle. Une expérience équestre unique vous attend, mêlant aventure, nature et connexion authentique avec notre environnement côtier.",
+        "image": "horse_riding.jpg"
+      },
+      {
+        "title": "Massage en extérieur :",
+        "text": "Détendez-vous et laissez-vous dorloter avec un massage en plein air. Profitez d'un moment de détente dans un cadre naturel apaisant, où le son des vagues et la brise marine vous enveloppent dans une atmosphère de tranquillité. Nos masseurs professionnels vous offrent une expérience de massage unique, combinant des techniques de massage traditionnelles et des huiles essentielles naturelles pour vous aider à vous détendre et à vous ressourcer.",
+        "image": "massage.jpg"
+      }
+    ]
+  },
+  "rates": [
+    {
+      "header": "Type d'hébergement",
+      "data": [
+        {
+          "title": "Emplacement tente seule",
+          "price": "2€"
+        },
+        {
+          "title": "Emplacement tente ou caravane (+1 véhicule)",
+          "price": "3€"
+        },
+        {
+          "title": "Emplacement camping-car",
+          "price": "3,50€"
+        },
+        {
+          "title": "Mobil-Home",
+          "price": "10€"
+        },
+        {
+          "title": "Garage mort (caravane)",
+          "price": "2,50€"
+        }
+      ]
+    },
+    {
+      "header": "Personnes",
+      "data": [
+        {
+          "title": "Adulte",
+          "price": "4€/adulte"
+        },
+        {
+          "title": "Adolescent (12-17 ans)",
+          "price": "3€/adolescent"
+        },
+        {
+          "title": "Enfant (3-11 ans)",
+          "price": "2€/enfant"
+        },
+        {
+          "title": "Enfant (- de 2 ans)",
+          "price": "Gratuit"
+        },
+        {
+          "title": "Animal domestique (2 max)",
+          "price": "2€/animal"
+        }
+      ]
+    },
+    {
+      "header": "Services",
+      "data": [
+        {
+          "title": "Branchement électricité",
+          "price": "3€"
+        },
+        {
+          "title": "Taxe de séjour (à partir de 18 ans)",
+          "price": "0,50€/personne"
+        }
+      ]
+    }
+  ],
+  "about": {
+    "message": [
+      "Bonjour et bienvenue sur le site web du camping Horizon Bleu !",
+      "Nous sommes ravis de vous accueillir et nous serions heureux de vous faire découvrir les charmes de notre camping.",
+      "Ici, vous pouvez simuler votre séjour en obtenant des informations détaillées sur nos tarifs en fonction du nombre de personnes, explorer les diverses activités passionnantes que nous proposons, rester à jour avec nos dernières actualités passionnantes et faire connaissance avec notre équipe chaleureuse.",
+      "N'hésitez pas à explorer notre site et à utiliser notre formulaire de contact si vous avez des questions ou si vous souhaitez en savoir plus sur notre camping.",
+      "Vous pouvez également effectuer des réservations en choisissant votre emplacement préféré.",
+      "Nous vous invitons à profiter pleinement de cette expérience virtuelle et à découvrir tous les aspects passionnants de notre camping Horizon Bleu.",
+      "Merci de votre visite et à bientôt !"
+    ],
+    "services": {
+      "title": "Les services que nous proposons :",
+      "items": [
+        "Bar / restaurant",
+        "Frigo / congélateur",
+        "Toilettes",
+        "Douches",
+        "Lavabo (certains sont réservés pour la vaisselle, d’autres pour le linge)"
+      ]
+    }
+  }
+}

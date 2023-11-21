@@ -10,6 +10,10 @@
   position: relative;
   background-color: cbf3f0;
   color: $color-primary;
+
+  @media screen and (max-width: 895px) {
+    flex-direction: column;
+  }
 }
 
 .logo {
@@ -30,6 +34,10 @@
       font-weight: 700;
       color: $color-primary;
       white-space: nowrap;
+
+      &:hover {
+        color: $color-secondary;
+      }
     }
   }
 
@@ -46,12 +54,12 @@
   height: 80px;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 10px 10px;
+  padding: 10px 0;
   justify-content: center;
   align-items: center;
 
   @include desktop-and-more {
-    width: 730px;
+    width: 680px;
   }
 
   &__list {
@@ -63,6 +71,7 @@
     height: 100%;
     padding: 50px 0;
     margin: auto;
+    gap: 20px;
 
     @include tablet-and-more {
       padding: 0;
@@ -77,25 +86,31 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 0 10px;
-      width: 25%;
-      line-height: 1.2;
       height: 50px;
       padding: 0 5px;
     }
 
     &__link {
-      transition: all 0.2s ease;
-
+      white-space: nowrap;
       &:hover {
-        color: $color-tertiary;
+        color: $color-secondary;
       }
 
       @include tablet-and-more {
         font-size: 1rem;
         font-weight: 300;
-        min-width: 102px;
       }
     }
+  }
+}
+
+.connect-button {
+  color: $color-tertiary;
+  background-color: $color-primary;
+  padding: 8px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $color-secondary;
   }
 }
