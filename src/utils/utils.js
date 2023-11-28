@@ -1,3 +1,3 @@
 export const getImagePath = (image) => {
-  return import.meta.env.BASE_URL + 'src/assets/images/' + image
+  return 'https://www.baptiste-jan.fr/heb-images/horizon-bleu/' + image
 }

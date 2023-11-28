@@ -1,24 +1,24 @@
 <template>
-  <form className="form text__wrapper">
-    <div className="form__content">
-      <label>
+  <form class="form text__wrapper">
+    <div class="form__content">
+      <label class="form__label">
         Prénom
         <input type="text" placeholder="Prénom" />
       </label>
-      <label>
+      <label class="form__label">
         Nom de famille
         <input type="text" placeholder="Nom de famille" />
       </label>
     </div>
-    <label>
+    <label class="form__label">
       Email *
       <input type="text" placeholder="contact@exemple.com" />
     </label>
-    <label>
+    <label class="form__label">
       Objet du message
       <input type="text" placeholder="Mail depuis le site" />
     </label>
-    <label>
+    <label class="form__label">
       Message *
       <textarea placeholder="Votre message..."></textarea>
     </label>

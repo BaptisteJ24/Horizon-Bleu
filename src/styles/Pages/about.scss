@@ -2,9 +2,13 @@
   &__section {
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 20px;
     justify-content: center;
     max-width: 1440px;
     margin: 0 auto;
+
+    @include tablet-and-more {
+      padding: 50px;
+    }
   }
 }

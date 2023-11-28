@@ -35,5 +35,13 @@ ul {
 
 h1 {
   font-family: 'Waterfall', cursive;
-  font-size: map-get($font-size, 64px);
+  font-size: map-get($font-size, 56px);
+
+  @include tablet-and-more {
+    font-size: map-get($font-size, 64px);
+  }
+}
+
+img {
+  overflow: clip !important;
 }

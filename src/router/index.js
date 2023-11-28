@@ -36,6 +36,17 @@ const routes = [
     path: '/team',
     name: 'Team',
     component: () => import('../views/TeamView.vue')
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: () => import('../views/LoginView.vue')
+  },
+  {
+    // Cette route va matcher toutes les routes non trouvées jusqu'à présent
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import('../views/ErrorView.vue')
   }
 ]
 

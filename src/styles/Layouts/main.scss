@@ -64,3 +64,11 @@
   list-style: disc;
   margin-left: 20px;
 }
+
+.mobile-only {
+  display: none;
+
+  @include mobile-only {
+    display: block;
+  }
+}

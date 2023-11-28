@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  
+  # Rediriger toutes les requêtes vers index.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.html [QSA,L]
+</IfModule>
+
+<FilesMatch "\.(jpg|jpeg|png|gif|js|css)$">
+    Header set Cache-Control "max-age=2419200, public"
+</FilesMatch>
+
+
+
+
+

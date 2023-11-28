@@ -3,5 +3,44 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 150px;
+  margin: 150px auto;
+  padding: 20px;
+  text-align: center;
+  gap: 20px;
+  @include tablet-and-more {
+    margin: 150px;
+  }
+
+  &__title {
+    font-size: map-get($font-size, 48px);
+    color: $color-secondary;
+
+    @include tablet-and-more {
+      font-size: map-get($font-size, 64px);
+    }
+  }
+
+  &__subtitle {
+    font-size: map-get($font-size, 24px);
+
+    @include tablet-and-more {
+      font-size: map-get($font-size, 32px);
+    }
+  }
+
+  &__link {
+    margin-top: 20px;
+    font-size: map-get($font-size, 18px);
+    color: $color-primary;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+
+    &:hover {
+      color: $color-secondary;
+    }
+
+    @include tablet-and-more {
+      font-size: map-get($font-size, 24px);
+    }
+  }
 }

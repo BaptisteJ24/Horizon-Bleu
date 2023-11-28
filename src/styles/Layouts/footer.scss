@@ -16,18 +16,12 @@
     }
   }
 
-  // &__link {
-  //   color: $color-primary;
-  //   font-size: map-get($font-size, 14px);
-  //   text-decoration: underline;
-  //   transition: all 0.3s ease;
+  &__link {
+    transition: all 0.3s ease;
+    color: $color-tertiary;
 
-  //   &:hover {
-  //     color: $color-tertiary;
-  //   }
-
-  //   @include tablet-and-more {
-  //     font-size: map-get($font-size, 18px);
-  //   }
-  // }
+    &:hover {
+      color: $color-secondary;
+    }
+  }
 }

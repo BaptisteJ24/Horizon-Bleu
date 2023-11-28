@@ -22,7 +22,7 @@ axios.get('/data.json').then((response) => {
         <aside class="contact__aside text__wrapper">
           <div class="contact__aside__header">
             <img :src="Logo" alt="logo" />
-            <h2 class="contact__aside__title"><span> Camping </span><span>Horizon Bleu </span></h2>
+            <h2 class="contact__aside__title"><span>Camping</span><span>Horizon Bleu</span></h2>
           </div>
           <h5 class="contact__aside__label">Téléphone :</h5>
           <p class="contact__aside__text">
